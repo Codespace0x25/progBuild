@@ -1,17 +1,17 @@
-# progBuild is a build system i made to make my life.
-it was make orignly in python and i moved it to c. it is a self hosted system for building c programs.
+# progBuild is a build system I made to make my life easier.
+It was originally written in python and then I moved it to C. It's a self hosted system for building C programs.
 
-# the way you compile it.
+# Compilation Setps.
 
-# fist you will need a in install these depindissyhs
+# First you will need to install the dependencies
     - cJSON
-    - c build tools from you package manager
-    - make for cJSON and  only if you dont have it installed alrady
+    - C build tools from your package manager
+    - make for cJSON and  only if you dont have it installed already
     - cmake to isntall for cJSON
 
-# commpile commadnds and install.
+# Compilation commands and installation.
 
-- if you have a older vishone you ill just have to run 
+- if you have a older version you'll just have to run 
 
     ` progBuild -r C && sudo progBuild -I C `
 
