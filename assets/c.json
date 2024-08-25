@@ -2,17 +2,17 @@
     "C":{
         "comp":{
         "compiler": "gcc",
-        "buildPath": "build/progBuild",
+        "buildPath": "build/main",
         "srcBassPath":"src/",
         "srcFiles":["main.c"],
-        "Compileratgs": "-lcjson"
+        "Compileratgs": ""
         },
         "Test":{
             "prefix":"",
             "args":[]
         },
         "Installer":{
-            "command":"cp build/progBuild /bin && mkdir /opt/Progstart && cp assets/c.json /opt/Progstart/c.json"
+            "command":""
         }
     }
 
