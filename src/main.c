@@ -125,9 +125,9 @@ int main(int argc, char *argv[]) {
         cJSON *config = load_config(CONFIG_PATH);
         run_or_test_c_project(config);
         cJSON_Delete(config);
-    } else if(strcmp(argv[1], "-I" == 0){
+    } else if(strcmp(argv[1], "-I") == 0){
         cJSON *config = load_config(CONFIG_PATH);
-        install(conifg);
+        install(config);
     }
 
     return 0;

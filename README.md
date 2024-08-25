@@ -10,6 +10,10 @@ It was originally written in python and then I moved it to C. It's a self hosted
     - cmake to isntall for cJSON
 
 # Compilation commands and installation.
+- make the build dir
+
+` mkdir -p build`
+
 
 - if you have a older version you'll just have to run 
 
