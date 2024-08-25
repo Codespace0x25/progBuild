@@ -5,7 +5,7 @@
         "buildPath": "build/progBuild",
         "srcBassPath":"src/",
         "srcFiles":["main.c"],
-        "Compileratgs": "-static -lcjson"
+        "Compileratgs": " -lcjson"
         },
         "Test":{
             "prefix":"",
