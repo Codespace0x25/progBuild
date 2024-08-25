@@ -1,0 +1,10 @@
+{
+    "C":{
+        "compiler": "gcc",
+        "buildPath": "build/main",
+        "srcBassPath":"src/",
+        "srcFiles":["main.c"],
+        "Compileratgs": ""
+
+    }
+}
